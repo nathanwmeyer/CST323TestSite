@@ -1,0 +1,5 @@
+com\example\demo\model\userModel.class
+com\example\demo\model\userList.class
+com\example\demo\DemoSiteApplication.class
+com\example\demo\model\productList.class
+com\example\demo\model\productModel.class

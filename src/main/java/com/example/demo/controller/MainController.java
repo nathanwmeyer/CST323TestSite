@@ -17,7 +17,7 @@ import com.example.demo.model.ProductModel;
 import com.example.demo.model.UserModel;
 
 @Controller
-@RequestMapping("/")
+//@RequestMapping("/")
 public class MainController {
 
     @Autowired

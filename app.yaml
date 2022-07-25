@@ -1,0 +1,20 @@
+runtime: java
+env: flex
+
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+
+beta_setting:
+  cloud_sql_instances: test-site-357418:us-central1:test-server
+
+runtime_config:
+  jdk: openjdk8
+  server: jetty9
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 0.25
+  memory_gb: 0.50
+  disk_size_gb: 0.25

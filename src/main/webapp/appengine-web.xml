@@ -3,7 +3,4 @@
     <threadsafe>true</threadsafe>
     <runtime>java8</runtime>
     <sessions-enabled>true</sessions-enabled>
-    <system-properties>
-        <property name="app.log" value="/tmp/playspring/logs/testJavaApp.log"/>
-    </system-properties>
 </appengine-web-app>

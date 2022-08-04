@@ -1,0 +1,27 @@
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="%style{%d{ISO8601}}{black} %highlight{%-5level }[%style{%t}{bright,blue}] %style{%C{1.}}{bright,yellow}: %msg%n%throwable" />
+        </Console>
+
+        <!-- File Appender -->
+        <File name="File" fileName="logs/application.log">
+          <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- LOG everything at INFO level -->
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="File" />
+        </Root>
+
+        <!-- LOG "com.baeldung*" at TRACE level -->
+        <Logger name="com.edu.gcu" level="trace">
+            <AppenderRef ref="File" />
+        </Logger>
+    </Loggers>
+
+</Configuration>

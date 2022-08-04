@@ -7,12 +7,6 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
-		<exclusions>
-        <exclusion>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-logging</artifactId>
-        </exclusion>
-    </exclusions>
 	</parent>
 	<groupId>com.demo.site</groupId>
 	<artifactId>demoSite</artifactId>

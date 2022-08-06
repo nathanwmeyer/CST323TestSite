@@ -6,7 +6,7 @@ handlers:
   script: this field is required, but ignored
 
 beta_settings:
-  cloud_sql_instances: gcu-activity-testapp:us-central1:test-server
+  cloud_sql_instances: automatic-curve-358618:us-central1:test-server
 
 runtime_config:
   jdk: openjdk8
